@@ -7,7 +7,9 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            background-color: #006d5b;
+            background: url('assets/images/background1.png') no-repeat center center fixed;
+            background-size: cover;
+            /* background-color: #006d5b; */
             color: white;
             display: flex;
             flex-direction: column;
@@ -23,12 +25,12 @@
             border: none;
         }
         button {
-            background-color: #00a582;
+            background-color: #528693;
             color: white;
             cursor: pointer;
         }
         button:hover {
-            background-color: #008f6f;
+            background-color: #528693;
         }
     </style>
 </head>

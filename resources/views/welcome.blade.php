@@ -11,7 +11,9 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #006d5b;
+            background: url('assets/images/background1.png') no-repeat center center fixed;
+            background-size: cover;
+            /* background-color: #006d5b; */
             color: white;
             display: flex;
             flex-direction: column;
@@ -22,6 +24,7 @@
 
             .chat-container {
             text-align: center;
+            margin-bottom: 10%;
             max-width: 1000px;
             width: 100%;
             }
@@ -63,7 +66,7 @@
             }
 
             button {
-            background-color: #00a582;
+            background-color: #528693;
             color: white;
             border: none;
             padding: 10px 20px;
@@ -74,7 +77,7 @@
             }
 
             button:hover {
-            background-color: #008f6f;
+            background-color: #528693;
             }
 
             form {
